@@ -1,4 +1,4 @@
-import { Meta, Story } from '@storybook/react/types-6-0';
+import { Meta, StoryFn } from '@storybook/react/types-6-0';
 import { CloneMe, CloneMeProps } from '.';
 
 export default {
@@ -6,7 +6,7 @@ export default {
   component: CloneMe,
 } as Meta;
 
-export const Template: Story<CloneMeProps> = (args) => {
+export const Template: StoryFn<CloneMeProps> = (args) => {
   return (
     <div>
       <CloneMe {...args} />

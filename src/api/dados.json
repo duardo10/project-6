@@ -1,0 +1,189 @@
+{
+  "data": {
+    "setting": {
+      "data": {
+        "id": "1",
+        "attributes": {
+          "blogName": "Luis Eduardo",
+          "blogDescription": "Uma descrição para o seu blog.",
+          "logo": {
+            "data": {
+              "id": "1",
+              "attributes": {
+                "alternativeText": null,
+                "url": "/uploads/bola_a5f9b2cab5.jpeg"
+              }
+            }
+          },
+          "menuLink": [
+            {
+              "id": "1",
+              "link": "#target",
+              "text": "O Texto",
+              "newTab": false
+            },
+            {
+              "id": "2",
+              "link": "#link2",
+              "text": "Link2",
+              "newTab": true
+            }
+          ],
+          "text": "<p>O texto da footer</p>"
+        }
+      }
+    },
+    "posts": {
+      "data": [
+        {
+          "id": "1",
+          "attributes": {
+            "slug": "post",
+            "title": "Selva",
+            "excerpt": "selva amama",
+            "content": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "a selva é um lugar de vários animais"
+                  }
+                ]
+              }
+            ],
+            "allowComments": false,
+            "cover": {
+              "data": {
+                "id": "2",
+                "attributes": {
+                  "alternativeText": null,
+                  "url": "/uploads/PANTANAL_3_821d4b4825.jpeg"
+                }
+              }
+            },
+            "categories": {
+              "data": [
+                {
+                  "id": "3",
+                  "attributes": {
+                    "displayName": "python",
+                    "slug": "p"
+                  }
+                },
+                {
+                  "id": "2",
+                  "attributes": {
+                    "displayName": "react",
+                    "slug": "r-1"
+                  }
+                }
+              ]
+            },
+            "tags": {
+              "data": [
+                {
+                  "id": "2",
+                  "attributes": {
+                    "displayName": "useEffect",
+                    "slug": "tag-1"
+                  }
+                },
+                {
+                  "id": "1",
+                  "attributes": {
+                    "displayName": "useState",
+                    "slug": "tag"
+                  }
+                }
+              ]
+            },
+            "author": {
+              "data": {
+                "id": "1",
+                "attributes": {
+                  "displayName": "Luis Eduardo",
+                  "slug": "author"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "2",
+          "attributes": {
+            "slug": "post-1",
+            "title": "paisagem",
+            "excerpt": "a paisagem",
+            "content": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A paisagem bela"
+                  }
+                ]
+              }
+            ],
+            "allowComments": true,
+            "cover": {
+              "data": {
+                "id": "3",
+                "attributes": {
+                  "alternativeText": null,
+                  "url": "/uploads/ORGANIZADO_9eb83d80b2.jpeg"
+                }
+              }
+            },
+            "categories": {
+              "data": [
+                {
+                  "id": "2",
+                  "attributes": {
+                    "displayName": "react",
+                    "slug": "r-1"
+                  }
+                },
+                {
+                  "id": "3",
+                  "attributes": {
+                    "displayName": "python",
+                    "slug": "p"
+                  }
+                }
+              ]
+            },
+            "tags": {
+              "data": [
+                {
+                  "id": "1",
+                  "attributes": {
+                    "displayName": "useState",
+                    "slug": "tag"
+                  }
+                },
+                {
+                  "id": "2",
+                  "attributes": {
+                    "displayName": "useEffect",
+                    "slug": "tag-1"
+                  }
+                }
+              ]
+            },
+            "author": {
+              "data": {
+                "id": "1",
+                "attributes": {
+                  "displayName": "Luis Eduardo",
+                  "slug": "author"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
